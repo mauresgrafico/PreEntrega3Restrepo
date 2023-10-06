@@ -1,0 +1,234 @@
+/* line 1, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.Contenedor {
+  background-color: black;
+}
+
+/* line 5, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* line 9, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.nav-link {
+  padding: 2rem 5px;
+}
+
+/*index*/
+/* line 14, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+h1 {
+  font-weight: bold;
+  font-size: calc(2.375rem + 4.5vw);
+  line-height: 1;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 22, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.text-saludo {
+  color: white;
+  font-size: calc(0.8rem + 1.4vw);
+  font-family: 'Montserrat', sans-serif;
+  align-items: start;
+}
+
+/* line 29, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.degrade {
+  background: linear-gradient(150deg, #574bcd 15%, #2999ad 30%, #41e976 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* line 36, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.container-fluid {
+  margin: 100px 50px;
+}
+
+/* line 43, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.col-sm {
+  border-radius: 10px;
+  margin: 50px 50px;
+  padding: 20px 20px;
+  background: linear-gradient(150deg, #574bcd 15%, #2999ad 30%, #41e976 100%);
+}
+
+/* line 51, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card {
+  background: linear-gradient(150deg, #574bcd 0%, #2999ad 50%, #41e976 100%);
+  padding: 50px;
+}
+
+/* line 56, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-animation {
+  transition: transform 0.3s ease;
+}
+
+/* line 60, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-animation:hover {
+  transform: rotate(5deg);
+}
+
+/* line 64, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-title {
+  color: white;
+  font-size: calc(0.8rem + 0.8vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* line 73, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card img {
+  width: 70px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* line 79, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-text {
+  color: white;
+  font-size: calc(0.5rem + 0.6vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 1.0;
+}
+
+/* line 88, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.title-acerca {
+  color: white;
+  font-size: calc(1rem + 0.8vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  align-content: center;
+}
+
+/* line 98, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.text-acerca {
+  color: white;
+  font-size: calc(0,5rem + 0.8vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* line 108, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+/* line 115, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 122, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.grid-item img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* line 129, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.imagen-fade {
+  transition: opacity 0.5s ease;
+}
+
+/* line 133, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.imagen-fade:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  /* line 142, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 716px) {
+  /* line 150, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding: 20px;
+  }
+}
+
+/* line 157, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.title-proyectos {
+  color: white;
+  font-size: calc(1rem + 0.8vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 165, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.py-5 {
+  margin: 70px 70px;
+}
+
+/* line 169, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+p {
+  color: white;
+  font-size: calc(0,5rem + 0.8vw);
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  line-height: 1;
+}
+
+/* line 178, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.row {
+  align-items: center;
+}
+
+/* line 182, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.titlle-2 {
+  font-size: 100px;
+  margin-bottom: 90px;
+  font-size: calc(2.375rem + 4.5vw);
+}
+
+/* line 188, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.col-md-6 {
+  padding: 30px;
+}
+
+/* line 192, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.col-8 {
+  padding: 20px;
+  text-align: auto;
+}
+
+/*Proyectos*/
+/* line 200, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.gallery-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 207, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.gallery-logo img {
+  max-width: 100px;
+  height: auto;
+  margin: 20px 50px;
+}
+
+/*Servicios*/
+/*contacto*/
+/* line 223, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.btn-dark {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
