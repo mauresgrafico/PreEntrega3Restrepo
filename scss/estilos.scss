@@ -51,11 +51,19 @@ h1{
 .card{
     background: linear-gradient(150deg, #574bcd 0%, #2999ad 50%, #41e976 100%);
     padding: 50px;
+
+    .card-animation{
+        transition: transform 0.3s ease;
+
+        .card-animation:hover {
+            transform: rotate(5deg);
+        }   
+    
+    }
+
 }
 
-.card-animation{
-    transition: transform 0.3s ease;
-}
+
 
 .card-animation:hover {
     transform: rotate(5deg);
@@ -210,8 +218,6 @@ p{
     margin: 20px 50px;
     
 }
-
-
 
 
 /*Servicios*/
