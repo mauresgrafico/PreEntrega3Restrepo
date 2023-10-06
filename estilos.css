@@ -53,6 +53,14 @@ h1{
     padding: 50px;
 }
 
+.card-animation{
+    transition: transform 0.3s ease;
+}
+
+.card-animation:hover {
+    transform: rotate(5deg);
+}
+
 .card-title{
     color: white;
     font-size: calc(0.8rem + 0.8vw );
@@ -100,7 +108,7 @@ h1{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 40px; 
+    gap: 20px; 
     padding: 40px; 
 }
 
@@ -112,9 +120,21 @@ h1{
 }
 
 .grid-item img {
-    max-width: 100%; 
+    max-width: 80%; 
     height: auto;
+    border-radius: 10px;
+    
 }
+
+.imagen-fade{
+    transition: opacity 0.5s ease;
+}
+
+.imagen-fade:hover {
+    opacity: 0.5;
+}
+
+
 
 
 
