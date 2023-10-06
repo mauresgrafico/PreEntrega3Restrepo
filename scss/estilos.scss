@@ -44,26 +44,21 @@ h1{
     border-radius: 10px;
     margin: 50px 50px;
     padding: 20px 20px;
-    background: linear-gradient(150deg, #574bcd 15%, #2999ad 30%, #41e976 100%)
-    
+    background: linear-gradient(150deg, #574bcd 15%, #2999ad 30%, #41e976 100%)    
 }
 
 .card{
     background: linear-gradient(150deg, #574bcd 0%, #2999ad 50%, #41e976 100%);
     padding: 50px;
-
-    .card-animation{
-        transition: transform 0.3s ease;
-
-        .card-animation:hover {
-            transform: rotate(5deg);
-        }   
-    
-    }
-
 }
 
+.card-animation{
+    transition: transform 0.3s ease;
+}
 
+.card-animation:hover {
+    transform: rotate(4deg);
+}  
 
 .card-title{
     color: white;
@@ -114,33 +109,32 @@ h1{
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
     padding: 40px; 
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        
+        .grid-item img {
+            max-width: 75%; 
+            height: auto;
+            border-radius: 10px;    
+            }        
+        
+    }
 }
 
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-}
 
-.grid-item img {
-    max-width: 80%; 
-    height: auto;
-    border-radius: 10px;
-    
-}
+
 
 .imagen-fade{
     transition: opacity 0.5s ease;
+
+    .imagen-fade:hover {
+        opacity: 0.5;
+    }
 }
-
-.imagen-fade:hover {
-    opacity: 0.5;
-}
-
-
-
-
 
 @media (max-width: 1200px) {
     .grid-container {
@@ -206,15 +200,14 @@ p{
     flex-wrap: wrap; 
     justify-content: center; 
     align-items: center;
-}
 
-.gallery-logo img {
-    max-width: 100px; 
-    height: auto;
-    margin: 20px 50px;
-    
+    .gallery-logo img {
+        max-width: 100px; 
+        height: auto;
+        margin: 20px 50px;
+        
+    }
 }
-
 
 /*Servicios*/
 
