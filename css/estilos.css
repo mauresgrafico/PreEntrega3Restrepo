@@ -43,7 +43,7 @@ h1 {
   margin: 100px 50px;
 }
 
-/* line 43, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 41, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .col-sm {
   border-radius: 10px;
   margin: 50px 50px;
@@ -51,23 +51,23 @@ h1 {
   background: linear-gradient(150deg, #574bcd 15%, #2999ad 30%, #41e976 100%);
 }
 
-/* line 51, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 48, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .card {
   background: linear-gradient(150deg, #574bcd 0%, #2999ad 50%, #41e976 100%);
   padding: 50px;
 }
 
-/* line 55, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.card .card-animation {
+/* line 53, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-animation {
   transition: transform 0.3s ease;
 }
 
-/* line 58, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.card .card-animation .card-animation:hover {
+/* line 57, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.card-animation:hover {
   transform: rotate(4deg);
 }
 
-/* line 66, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 61, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .card-title {
   color: white;
   font-size: calc(0.8rem + 0.8vw);
@@ -76,14 +76,14 @@ h1 {
   font-weight: 600;
 }
 
-/* line 75, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 70, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .card img {
   width: 70px;
   margin: auto;
   padding-top: 20px;
 }
 
-/* line 81, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 76, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .card-text {
   color: white;
   font-size: calc(0.5rem + 0.6vw);
@@ -92,7 +92,7 @@ h1 {
   line-height: 1.0;
 }
 
-/* line 90, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 85, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .title-acerca {
   color: white;
   font-size: calc(1rem + 0.8vw);
@@ -102,7 +102,7 @@ h1 {
   align-content: center;
 }
 
-/* line 100, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 95, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .text-acerca {
   color: white;
   font-size: calc(0,5rem + 0.8vw);
@@ -111,7 +111,7 @@ h1 {
   line-height: 1.5;
 }
 
-/* line 110, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 103, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,33 +119,33 @@ h1 {
   padding: 40px;
 }
 
-/* line 117, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.grid-item {
+/* line 109, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.grid-container .grid-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-/* line 124, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.grid-item img {
-  max-width: 80%;
+/* line 115, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.grid-container .grid-item .grid-item img {
+  max-width: 75%;
   height: auto;
   border-radius: 10px;
 }
 
-/* line 131, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 124, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .imagen-fade {
   transition: opacity 0.5s ease;
 }
 
-/* line 135, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.imagen-fade:hover {
+/* line 127, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.imagen-fade .imagen-fade:hover {
   opacity: 0.5;
 }
 
 @media (max-width: 1200px) {
-  /* line 144, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+  /* line 133, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -154,7 +154,7 @@ h1 {
 }
 
 @media (max-width: 716px) {
-  /* line 152, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+  /* line 141, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
@@ -162,7 +162,7 @@ h1 {
   }
 }
 
-/* line 159, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 148, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .title-proyectos {
   color: white;
   font-size: calc(1rem + 0.8vw);
@@ -171,12 +171,12 @@ h1 {
   font-weight: bold;
 }
 
-/* line 167, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 156, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .py-5 {
   margin: 70px 70px;
 }
 
-/* line 171, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 160, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 p {
   color: white;
   font-size: calc(0,5rem + 0.8vw);
@@ -185,31 +185,31 @@ p {
   line-height: 1;
 }
 
-/* line 180, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 169, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .row {
   align-items: center;
 }
 
-/* line 184, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 173, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .titlle-2 {
   font-size: 100px;
   margin-bottom: 90px;
   font-size: calc(2.375rem + 4.5vw);
 }
 
-/* line 190, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 179, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .col-md-6 {
   padding: 30px;
 }
 
-/* line 194, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 183, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .col-8 {
   padding: 20px;
   text-align: auto;
 }
 
 /*Proyectos*/
-/* line 202, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 191, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .gallery-logo {
   display: flex;
   flex-wrap: wrap;
@@ -217,8 +217,8 @@ p {
   align-items: center;
 }
 
-/* line 209, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
-.gallery-logo img {
+/* line 197, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+.gallery-logo .gallery-logo img {
   max-width: 100px;
   height: auto;
   margin: 20px 50px;
@@ -226,7 +226,7 @@ p {
 
 /*Servicios*/
 /*contacto*/
-/* line 223, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
+/* line 211, D:/12.CURSO HTML/PreEntrega3Restrepo/scss/estilos.scss */
 .btn-dark {
   margin-top: 20px;
 }
