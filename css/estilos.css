@@ -19,11 +19,23 @@ h1{
   font-family: 'Montserrat', sans-serif;
 }
 
-.text-saludo{
+h2{
   color: white;
   font-size: calc(0.8rem + 1.4vw);
   font-family: 'Montserrat', sans-serif;
   align-items: start;
+}
+
+h3{
+  font-weight: bold;
+  font-size: calc(1rem + 0.5vw);
+  line-height: 1;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titlle-h3-center{  
+  text-align: center;
 }
 
 .degrade{
@@ -38,8 +50,6 @@ h1{
   
 }
 
-
-
 .col-sm{
   border-radius: 10px;
   margin: 50px 50px;
@@ -53,12 +63,22 @@ h1{
   padding: 50px;
 }
 
+/*Animaciones*/
+
 .card-animation{
   transition: transform 0.3s ease;
 }
 
 .card-animation:hover {
   transform: rotate(5deg);
+}
+
+.imagen-fade{
+  transition: opacity 0.5s ease;
+}
+
+.imagen-fade:hover {
+  opacity: 0.5;
 }
 
 .card-title{
@@ -85,26 +105,6 @@ h1{
 
 }
 
-.title-acerca{
-  color: white;
-  font-size: calc(1rem + 0.8vw );
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-weight: bold;
-  align-content: center;
-
-}
-
-.text-acerca{
-  color: white;
-  font-size: calc(0,5rem + 0.8vw );
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  line-height: 1.5;
-  
-
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -126,18 +126,6 @@ h1{
   
 }
 
-.imagen-fade{
-  transition: opacity 0.5s ease;
-}
-
-.imagen-fade:hover {
-  opacity: 0.5;
-}
-
-
-
-
-
 @media (max-width: 1200px) {
   .grid-container {
       grid-template-columns: repeat(2, 1fr); 
@@ -154,14 +142,6 @@ h1{
   }
 }
 
-.title-proyectos{
-  color: white;
-  font-size: calc(1rem + 0.8vw );
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-weight: bold;
-
-}
 .py-5{
   margin: 70px 70px;
 }
@@ -171,9 +151,7 @@ p{
   font-size: calc(0,5rem + 0.8vw );
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  line-height: 1.2;
-  
-  
+  line-height: 1.2;  
 }
 
 .row{
@@ -217,16 +195,12 @@ p{
   text-align: center;
 }
 
-
-
-
 /*Servicios*/
 
 .img-servicio{
   width: 200px;
   
 }
-
 
 /*contacto*/
 
