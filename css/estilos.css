@@ -171,7 +171,8 @@ p{
   font-size: calc(0,5rem + 0.8vw );
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  line-height: 1;
+  line-height: 1.2;
+  
   
 }
 
@@ -205,10 +206,15 @@ p{
 }
 
 .gallery-logo img {
-  max-width: 100px; 
+  max-width: 150px; 
   height: auto;
   margin: 20px 50px;
+  padding-top: 30px;
   
+}
+
+.txt-introduccion{
+  text-align: center;
 }
 
 
